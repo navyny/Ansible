@@ -28,5 +28,10 @@ python3 -m pip install ansible
 <img width="1095" alt="ansible-screenshot" src="https://user-images.githubusercontent.com/16725668/106321255-df547480-6228-11eb-974c-928b0c75ad4c.png">
 
 
+NOTE: 
+Ansible version is : 2.10.5
+Python version is : 3.9.1
+
+
 
 
