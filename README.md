@@ -2,7 +2,9 @@
 
 
 Pre-reqs:
+
 1-Upgrade pip3 to latest "python3 -m pip install --upgrade pip"
+
 2-Check version "pip3 --version"
 
 When I installed Ansible using "pip3 install ansible" & try "ansible --version" there was COMMAND NOT FOUND
@@ -23,6 +25,7 @@ python3 -m pip install ansible
 
 ```
 
+<img width="1095" alt="ansible-screenshot" src="https://user-images.githubusercontent.com/16725668/106321255-df547480-6228-11eb-974c-928b0c75ad4c.png">
 
 
 
