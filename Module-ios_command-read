@@ -1,0 +1,14 @@
+--
+-name : "PLAY 1: Read the Serial Number"
+hosts : routers
+connection : network_cli
+ tasks:
+    -name: "TASK 1: Do show version and print Serial Number"
+      ios_command:
+          commands: "show version | inc IOS XE"
+      register: cli_result
+  
+   -name: "TASK 2: Print output" 
+    debug:
+        msg: "{{ cli_result }}"
+    
